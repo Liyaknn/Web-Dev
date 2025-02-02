@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook – Вход или регистрация</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 980px;
+        }
+        .left {
+            width: 50%;
+        }
+        .left h1 {
+            color: #1877f2;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .left p {
+            font-size: 20px;
+        }
+        .right {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 360px;
+        }
+        .right input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .right button {
+            width: 100%;
+            padding: 12px;
+            background: #1877f2;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .right button:hover {
+            background: #165dba;
+        }
+        .forgot {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+            color: #1877f2;
+            text-decoration: none;
+        }
+        .register {
+            width: 100%;
+            padding: 12px;
+            background: #42b72a;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .register:hover {
+            background: #36a420;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>facebook</h1>
+            <p>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+        </div>
+        <div class="right">
+            <input type="text" placeholder="Электронный адрес или номер телефона">
+            <input type="password" placeholder="Пароль">
+            <button>Вход</button>
+            <a href="#" class="forgot">Забыли пароль?</a>
+            <hr>
+            <button class="register">Создать новый аккаунт</button>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#">Создать Страницу</a> знаменитости, музыкальной группы или компании.
+    </div>
+</body>
+</html>
